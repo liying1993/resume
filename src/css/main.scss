@@ -180,7 +180,7 @@ header {
         @extend .tech-work-self;
         .tech-info {
           float: left;
-          width: 330px;
+          width: 650px;
           ul {
             margin-left: 6px;
             li {
@@ -193,33 +193,6 @@ header {
                   color: #fff;
                 }
               }
-            }
-          }
-        }
-        .tech-gragh {
-          float: left;
-          width: 320px;
-          .progress-bar {
-            margin: 8px 10px 15px 10px;
-            font-size: 12px;
-            background-color: #fff;
-            border: 1px solid #00aaff;
-            border-radius: 12px;
-            .fill {
-              display: block;
-              width: 0;
-              height: 16px;
-              padding-left: 8px;
-              line-height: 16px;
-              text-align: left;
-              color: #fff;
-              background-color: #0769ad;
-              border: 1px solid #0769ad;
-              border-radius: 12px;
-              box-shadow: 0 0 5px #0769ad;
-              overflow: hidden;
-              transition: width 1s;
-              -webkit-transition: width 1s; /* Safari */
             }
           }
         }
